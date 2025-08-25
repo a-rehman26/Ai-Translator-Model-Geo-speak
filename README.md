@@ -19,47 +19,6 @@ GeoSpeak is an intelligent, real-time web application that leverages Google Gemi
 
 - Python 3.8 or higher
 - Google Gemini API key ([Get one here](https://makersuite.google.com/app/apikey))
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/AunSyedShah/geospeak.git
-   cd geospeak
-   ```
-
-2. **Run the setup script**
-   ```bash
-   ./run.sh
-   ```
-   
-   Or manually:
-   
-3. **Create virtual environment**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-4. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-5. **Configure environment**
-   ```bash
-   cp .env.example .env
-   # Edit .env and add your Google Gemini API key
-   ```
-
-6. **Run the application**
-   ```bash
-   python app.py
-   ```
-
-7. **Open your browser**
-   Navigate to `http://localhost:5000`
-
 ## 🔧 Configuration
 
 ### Environment Variables
